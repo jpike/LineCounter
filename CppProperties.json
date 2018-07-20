@@ -1,0 +1,27 @@
+{
+    "configurations":
+    [
+        {
+            "name": "debug",
+            "compilerSwitches": "/EHsc /WX /W4 /TP /std:c++latest /Z7 /Od /MTd",
+            "intelliSenseMode": "windows-msvc-x64",
+            "includePath":
+            [
+                "${env.WindowsSdkDir}include/${env.WindowsSDKVersion}/ucrt",
+                "${env.VCToolsInstallDir}include",
+                "${projectRoot}/code"
+            ]
+        },
+        {
+            "name": "release",
+            "compilerSwitches": "/EHsc /WX /W4 /TP /std:c++latest /O2 /MT",
+            "intelliSenseMode": "windows-msvc-x64",
+            "includePath":
+            [
+                "${env.WindowsSdkDir}include/${env.WindowsSDKVersion}/ucrt",
+                "${env.VCToolsInstallDir}include",
+                "${projectRoot}/code"
+            ]
+        }
+    ]
+}

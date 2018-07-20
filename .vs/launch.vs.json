@@ -1,0 +1,16 @@
+{
+    "version": "0.2.1",
+    "defaults": {},
+    "configurations":
+    [
+        {
+            "type": "native",
+            "name": "LineCounter.exe",
+            "project": "build\\LineCounter.exe",
+            "args":
+            [
+                "D:/projects2/LineCounter/"
+            ]
+        }
+    ]
+}

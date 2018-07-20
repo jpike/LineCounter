@@ -1,0 +1,7 @@
+#include "Filesystem/DirectoryListing.cpp"
+#include "Filesystem/File.cpp"
+#include "Filesystem/Folder.cpp"
+
+#include "CommandLineArguments.cpp"
+#include "LineCountStatistics.cpp"
+#include "main.cpp"
